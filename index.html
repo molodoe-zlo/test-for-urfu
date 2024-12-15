@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="textstyles.css">
+    <title>Магистратура в Химико-Технологическом Институте</title>
+  </head>
+
+  <body>
+  <header class="header" id="header">
+        <div class="logo"> 
+          <a href="#about" style="border-bottom: none;">
+          <img src="imgs\logo_urfu.svg" width="142" height="48"> </a> 
+        </div> 
+        <nav>
+          <ul class="menu_list">
+            <li class="menu_list-item">
+              <a class="whitesmall" href="#about">Об институте</a> </li>
+            <li class="menu_list-item">
+              <a class="whitesmall" href="#how">Как поступить</a> </li>
+            <li class="menu_list-item">
+              <a class="whitesmall" href="">Программы</a> </li>
+            <li class="menu_list-item">
+              <a class="whitesmall" href="">FAQ</a> </li>
+            <li class="menu_ist-item">
+              <a class="whitesmall" href="">Контакты</a> </li>
+          </ul> </nav>
+        <button class="button1">
+          Хочу поступить
+        </button>
+        <script> 
+        let lastScrollY = window.scrollY;
+        const header = document.getElementById('header'); 
+        window.addEventListener('scroll', () => { 
+          const currentScrollY = window.scrollY; 
+          if (currentScrollY > lastScrollY) { 
+            header.classList.add('hidden'); 
+            } else { 
+              header.classList.remove('hidden'); } 
+              lastScrollY = currentScrollY;});
+        </script>
+    </header>
+
+    <main class="site-main">
+      <div class="screen1">
+        <img src="imgs\Mask group.png" width="1600" height="480">
+        <h1>Магистратура </h1>
+          <h1 class="smallh1"> Химико-технологический институт УрФУ</h1>
+            <div> <p class="white">Практико-ориентированное образование через прикладную и фундаментальную науку мирового уровня</p>
+            <a href="" class="white">Смотреть программы</a> </div>
+        </div>
+
+        <div class="screen2" id="about"> 
+          <h2 class="about">Об институте</h2>
+            <div class="abouttext"><p>ХТИ - это глубокие научные и образовательные традиции, а также высококвалифицированные сотрудники, обладающие богатым опытом в решении разноплановых фундаментальных и прикладных задач в области современной химии и химической технологии.</p>
+            <a href="" class="bigblue">Посетить сайт института</a>
+            <button class="button2">
+              Поступить
+            </button> </div>
+            <div class="videos"> <img src="imgs\image 27.png" width="496" height="276"> 
+              <img src="imgs\image 28.png" width="496" height="276"> </div>
+            <div class="aboutscheme1"> <h2>25</h2>
+              <div class="create-line"></div>
+              <p>Российских и зарубежных академических партнеров</p> </div>
+            <div class="aboutscheme2"> <h2>20</h2>
+              <div class="create-line"></div>
+              <p>Крупных индустриальных партнеров</p> </div>
+            <div class="aboutscheme3"> <h2>150</h2>
+              <div class="create-line"></div>
+              <p>Бюджетных мест по программам магистратуры</p> </div>
+            </div>
+
+        <div class="screen3" id="how"> <h2 class="how">Как поступить?</h2>
+            <label class="switch">
+                <input type="checkbox" id="toggleSwitch"> 
+                <span class="slider round"></span>
+            </label>
+
+          <div id="content1" class="content active">
+           <div class="free"> <p class="bigblue">Бюджет</p> </div>
+           <div class="contract"> <p class="biggrey">Контракт</p> </div>
+            <div class="frame_122">
+              <img src="imgs\Frame 122.svg" width="40" height="135"> </div>
+            <div class="frame_123">
+              <img src="imgs\Frame 123.svg" width="40" height="86"> </div>
+            <div class="frame_124">
+              <img src="imgs\Frame 124.svg" width="40" height="86"> </div>
+            <div class="frame_125">
+              <img src="imgs\Frame 125.svg" width="40" height="135"> </div>
+
+            <div class="about_admission"> 
+              <h3>Узнайте о поступлении</h3>
+              <p class="lineheightbig">Правила приема</p>
+              <p class="lineheightbig">Сроки подачи документов</p>
+              <p class="grey">Очная форма обучения:  </p>
+              <p class="smallblue">20.06 - 08.08</p>
+              <p class="grey">Очно-заочная форма обучения:  </p>
+              <p class="smallblue">20.06 - 08.08</p> </div>
+            <div class="select_program"> 
+              <h3 class="twolines">Выберите образовательную программу</h3>
+              <p>Каталог образовательных программ</p>
+              <a href="">Смотреть программы</a> </div>
+            <div class="submit_documents"> 
+              <h3>Подайте документы</h3>
+              <p>Подать документы онлайн через личный кабинет абитуриента</p>
+              <a href="">Регистрация</a> </div>
+            <div class="entrance_examinations"> 
+              <h3 class="twolines">Пройдите вступительные испытания</h3>
+              <p>Период сдачи вступительных испытаний</p>
+              <p class="grey">Очная форма обучения:</p>
+              <p class="smallblue">04.07 - 13.08</p>
+              <p class="grey">Очно-заочная форма обучения:  </p>
+              <p class="smallblue">04.07 - 13.09 и 22.08 - 12.09</p> </div>
+          </div>
+
+          <div id="content2" class="content">
+            <div class="free"> <p class="biggrey">Бюджет</p> </div>
+            <div class="contract"> <p class="bigblue">Контракт</p> </div>
+            <div class="frame_122">
+              <img src="imgs\Frame 122.svg" width="40" height="135"> </div>
+            <div class="frame_123">
+              <img src="imgs\Frame 123.svg" width="40" height="86"> </div>
+            <div class="frame_124">
+              <img src="imgs\Frame 124.svg" width="40" height="86"> </div>
+            <div class="frame_125">
+              <img src="imgs\Frame 125.svg" width="40" height="135"> </div>
+
+              <div class="about_admission"> 
+                <h3>Узнайте о поступлении</h3>
+                <p class="lineheightbig">Правила приема</p>
+                <p class="lineheightbig">Сроки подачи документов</p>
+                <p class="grey">Очная форма обучения:  </p>
+                <p class="smallblue">20.06 - 23.09</p>
+                <p class="grey">Очно-заочная форма обучения:  </p>
+                <p class="smallblue">20.06 - 28.10</p> </div>
+              <div class="select_program"> 
+                <h3 class="twolines">Выберите образовательную программу</h3>
+                <p>Каталог образовательных программ</p>
+                <a href="">Смотреть программы</a> </div>
+              <div class="submit_documents"> 
+                <h3>Подайте документы</h3>
+                <p>Подать документы онлайн через личный кабинет абитуриента</p>
+                <a href="">Регистрация</a> </div>
+              <div class="entrance_examinations"> 
+                <h3 class="twolines">Пройдите вступительные испытания</h3>
+                <p>Период сдачи вступительных испытаний</p>
+                <p class="grey">Очная форма обучения:</p>
+                <p class="smallblue">04.07 - 13.08 22.08 - 24.09</p>
+                <p class="grey">Очно-заочная форма обучения:  </p>
+                <p class="smallblue">04.07 - 13.09 и 22.08 - 29.10</p> </div>
+          </div>
+
+          <script>
+            const toggleSwitch = document.getElementById('toggleSwitch');
+            const content1 = document.getElementById('content1');
+            const content2 = document.getElementById('content2');
+    
+            toggleSwitch.addEventListener('change', function () {
+                if (this.checked) {
+                    content1.classList.remove('active');
+                    content2.classList.add('active');
+                } else {
+                    content2.classList.remove('active');
+                    content1.classList.add('active');
+                }
+            });
+        </script>
+    </div>
+
+    </main>
+    <div class="site-footer">
+    </div>
+  </body>
+</html>

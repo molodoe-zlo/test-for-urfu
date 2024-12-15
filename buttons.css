@@ -1,0 +1,92 @@
+/* buttons */
+
+button {
+    width: 280px;
+    height: 64px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Mont;
+    line-height: 21.6px;
+    border-radius: 18px;
+    background-color: #EF302B;
+    color: white;
+  }
+
+  button:hover {
+    background-color: #C0231F;
+  }
+
+  button.button1 {
+    position: absolute;
+    height: 72px;
+    left: 1280px;
+    top: 18px;
+  }
+
+  button.button2 {
+    position: absolute;
+    left: 0px;
+    bottom: -180px;
+  }
+
+/* slider */
+
+.switch {
+  position: absolute;
+  top: 10px;
+  right: 200px;
+  display: inline-block;
+  width: 54px;
+  height: 26px;
+}
+
+.switch input { display:none; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1E4391;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 16px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  left: 4px;
+  top: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #1E4391;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.content {
+    display: none;
+}
+.content.active {
+    display: block;
+}

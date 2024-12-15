@@ -1,0 +1,163 @@
+@font-face { 
+    font-family: "Mont";
+    src: url("fonts/MontSemiBold.ttf") format("opentype");
+    font-weight: 600;
+  }
+  
+  @font-face { 
+    font-family: "Mont";
+    src: url("fonts/MontBold.ttf") format("opentype");
+    font-weight: 700;
+  }
+  
+  @font-face { 
+    font-family: "MontRegular";
+    src: url("fonts/MontRegular.ttf") format("opentype");
+    font-weight: 600;
+  }
+
+  
+  h1 {
+    position: absolute;
+    left: 20px;
+    bottom: 35px;
+    width: 880px;
+    height: 238px;
+    color: white;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 84.48px;
+  }
+
+  .smallh1 {
+    height: 114px;
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+    font-size: 52px;
+    line-height: 57.2px;
+  }
+  
+  p.white {
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+    width: 420px;
+    height: 116px;
+    color: white;
+    font-family: "Mont";
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  
+  h2 {
+    width: 411px;
+    height: 57px;
+    color: #1E4391;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 125px;
+  }
+
+  p {
+    color: #222222;
+    font-family: "MontRegular";
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  h3 {
+    width: 307px;
+    height: 40px;
+    color: #1E4391;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  h3.twolines {
+    height: 44px;
+  }
+
+  p.grey {
+    color: #000000;
+    opacity: 60%;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  p.smallblue {
+    color: #1E4391;
+    opacity: 80%;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1px;
+  }
+
+  p.lineheightbig {
+    line-height: 30px;
+  }
+
+  p.bigblue {
+    color: #1E4391;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+
+
+  p.biggrey {
+    color: black;
+    opacity: 40%;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 1px 0;
+    border-bottom: 2px solid;
+    font-family: "Mont";
+    font-weight: 600;
+    color: #1E4391;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  a.white {
+    position: absolute;
+    right: 244px;
+    bottom: 100px;
+    color: white;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  a.bigblue {
+    font-size: 18px;
+    line-height: 50px;
+  }
+
+  a.whitesmall {
+    border-bottom: none; 
+    color: white;
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+
+  a:hover {
+    border-bottom: 2px solid;
+  }

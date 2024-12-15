@@ -1,0 +1,204 @@
+  .header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+  height: 108px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  z-index: 10;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out; 
+}
+
+.header.hidden {
+  transform: translateY(-100%);
+}
+ 
+.menu_list {
+  position: absolute;
+  left: 296px;
+  top: 28px;
+  display: flex;
+  list-style: none;
+ }
+
+.menu_list-item {
+  margin-right: 20px;
+ }
+
+ .logo{
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+body {
+	margin: 0;
+	font-size: 14px;
+	color: #000000;
+	background-color: #F6F6F6;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.screen1 {   
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 900px;
+    background-position: center center;
+    background-image: url("imgs/Group 2538.png");
+    background-size: cover;
+  }
+
+  .screen2 {
+    position: absolute;
+    background-color: #F6F6F6;
+    left: 0px;
+    top: 1000px;
+    width: 1520px;
+    height: 436.4px;
+    margin: 40px
+  }
+
+  h2.about {
+    position: absolute;
+    top: -90px;
+  }
+ 
+  .videos{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+  }
+
+  .abouttext {
+    position: absolute;
+    width: 368px;
+    height: 153px;
+    left: 10px;
+    top: 50px;
+  }
+
+  .aboutscheme1 {
+    position: absolute;
+    width: 325.39px;
+    height: 120.4px;
+    right: 680px;
+    top: 240px;
+  }
+
+  .aboutscheme2 {
+    position: absolute;
+    width: 325.39px;
+    height: 120.4px;
+    right: 345px;
+    top: 240px;
+  }
+
+  .aboutscheme3 {
+    position: absolute;
+    width: 325.39px;
+    height: 120.4px;
+    right: 10px;
+    top: 240px;
+  }
+
+  .create-line {
+    width: 324.92px;
+    border-top: 8px solid #1E4391;
+  }
+
+  .screen3 {
+    position: absolute;
+    background-color: #F6F6F6;
+    left: 0px;
+    top: 1600px;
+    width: 1520px;
+    height: 459px;
+    margin: 40px
+  }
+
+  h2.how {
+    position: absolute;
+    top: -90px;
+  }
+
+  .about_admission {
+    position: absolute;
+    width: 368px;
+    height: 272px;
+    left: 45px;
+    top: 90px;
+  }
+
+  .frame_122 {
+    position: absolute;
+    left: -5px;
+    top: 100px;
+  }
+  
+  .select_program {
+    position: absolute;
+    width: 300px;
+    height: 163px;
+    left: 400px;
+    top: 80px;
+  }
+
+  .frame_123 {
+    position: absolute;
+    left: 350px;
+    top: 100px;
+  }
+  
+  .submit_documents {
+    position: absolute;
+    width: 300px;
+    height: 163px;
+    right: 400px;
+    top: 90px;
+  }
+
+  .frame_124 {
+    position: absolute;
+    right: 710px;
+    top: 100px;
+  }
+    
+  .entrance_examinations {
+    position: absolute;
+    width: 300px;
+    height: 252px;
+    right: 0px;
+    top: 80px;
+  }
+
+  .frame_125 {
+    position: absolute;
+    right: 310px;
+    top: 100px;
+  }
+
+  .free {
+    position: absolute;
+    right: 265px;
+    top: -15px;
+  }
+
+  .contract {
+    position: absolute;
+    right: 70px;
+    top: -15px;
+  }
+
+  .site-footer {
+    position: absolute;
+    left: 0px;
+    top: 2090px;
+    bottom: 0px; 
+    width: 1600px;
+    height: 32px;
+    background-image: linear-gradient(to left, #FF2D7F, #FB3727, #FEEA0F);
+   }
